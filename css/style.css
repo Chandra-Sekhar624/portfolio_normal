@@ -1,0 +1,987 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Poppins", Sans-serif;
+    line-height: 20px;
+    background-color: #121212;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menubar{
+    position: relative;
+}
+/* .menu{
+position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background: #0f0f0f;
+  color: #fff;
+  padding: 15px 0;
+  
+} */
+
+.navbar {
+	position: absolute;
+	top: 10px;
+	right: 124px;
+	left: 90px;
+	bottom: 0px;
+    
+}
+
+
+.menu img {
+    width: 135px;
+    height: auto;
+
+}
+
+.menu ul {
+    float: right;
+    text-align: center;
+}
+
+.menu li {
+    float: left;
+    padding: 5px 10px;
+
+}
+
+.hero {
+    background-image: url('../img/header-bg-dark.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:200px 0px;
+}
+
+.hero .hero-text {
+    color: #fff;
+
+}
+
+.hero .hero-text h2 {
+    padding: 30px 0;
+    font-weight: 500;
+}
+
+.hero .hero-text h1 {
+    padding-bottom: 15px;
+    font-size: 62px;
+    font-weight: 700px;
+}
+
+.hero .botton {
+    margin-top: 30px;
+}
+
+.hero .botton a {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #239e66;
+}
+
+.hero .hero-contract {
+    width: 45%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hero .hero-contract h3 {
+    color: #fff;
+    padding-bottom: 5px;
+
+
+}
+
+.hero .hero-contract h4 {
+    color: #d5d5d5;
+
+
+}
+
+.Info {
+    display: flex;
+    padding: 100px 0;
+}
+
+.Info img {
+    width: 50%;
+    border-radius: 10px;
+    margin-right: 10px;
+    float: left;
+
+}
+
+.Info .infotext h3 {
+    color: #239e66;
+    font-size: 26px;
+    line-height: 30px;
+}
+
+.Info .infotext h2 {
+    color: #fff;
+    font-size: bold;
+    font-size: 31px;
+    line-height: 35px;
+    font-weight: 700px;
+    padding-top: 10px;
+}
+
+.Info .infotext p {
+    color: #9d9d9d;
+    font-size: 22px;
+    line-height: 26px;
+    padding: 5px 0 30px 0;
+    border-bottom: 2px solid #9d9d9d;
+}
+
+.Info .infotext .InfoNF {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Info .infotext .InfoNF h3 {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400px;
+    color: #fff;
+    font-size: normal;
+    padding: 5px 0;
+}
+
+.Info .infotext .botton {
+    margin-top: 50px;
+
+}
+
+.Info .infotext .botton a {
+    padding: 15px 30px;
+    background-color: #239e66;
+    border-radius: 5px;
+
+}
+
+
+.myResume {
+
+    padding: 100px 0;
+
+}
+
+.myResume .section-title {
+    text-align: left;
+    margin-bottom: 40px;
+
+}
+
+.section-title h2 {
+    font-size: 4.7rem;
+    color: rgba(255, 255, 255, 0.1);
+    position: relative;
+    text-transform: uppercase;
+}
+
+.section-title h2 span {
+    position: absolute;
+    top: 0;
+    left: 9%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 2rem;
+}
+
+.myResume .resume-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.myResume .resume-section .resume-column {
+    flex: 1;
+
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.myResume .resume-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+
+}
+
+.myResume .resume-section .resume-column .resume-item {
+    background-color: #1e1e1e;
+    padding: 14px 29px;
+    border-radius: 5px;
+}
+
+.myResume .resume-section .resume-column .resume-item h3 {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.resume-item span {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.resume-item p {
+    font-size: 0.9rem;
+    color: #aaa;
+    margin-top: 10px;
+}
+
+.resume-item:last-child {
+    margin-bottom: 0;
+}
+
+
+
+.skills .skills-title {
+    text-align: left;
+    margin-bottom: 40px;
+
+}
+
+
+.skills .skills-title h2 {
+    font-size: 4.7rem;
+    color: rgba(255, 255, 255, 0.1);
+    position: relative;
+    text-transform: uppercase;
+}
+
+.skills .skills-title h2 span {
+    position: absolute;
+    top: 0;
+    left: 9%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 2rem;
+}
+
+.skills .leftSkill {
+    width: 45%;
+    float: left;
+    padding-right: 5%;
+
+}
+
+.skills .skill {
+    margin-bottom: 20px;
+}
+
+.skills .skill .skill-label {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #8e8e8e;
+}
+
+.skills .skill .skill-bar {
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    height: 20px;
+}
+
+.skills .skill .skill-bar .skill-bar-fill {
+    background-color: #4caf50;
+    height: 100%;
+    width: var(--percentage, 0%);
+}
+
+.skills .skill .skill-bar .skill-percentage {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0.9rem;
+    color: #fff;
+}
+
+.skill:nth-child(1) .skill-bar-fill {
+    --percentage: 95%;
+}
+
+.skill:nth-child(2) .skill-bar-fill {
+    --percentage: 80%;
+}
+
+.skill:nth-child(3) .skill-bar-fill {
+    --percentage: 90%;
+}
+
+.skill:nth-child(4) .skill-bar-fill {
+    --percentage: 80%;
+}
+
+.skill:nth-child(5) .skill-bar-fill {
+    --percentage: 90%;
+}
+
+.skill:nth-child(6) .skill-bar-fill {
+    --percentage: 70%;
+}
+
+
+
+.myCard {
+    padding: 100px 0;
+}
+
+.myCard .MainCard-title {
+    text-align: left;
+    margin-bottom: 45px;
+
+}
+
+.myCard .MainCard-title h2 {
+    font-size: 4.7rem;
+    color: rgba(255, 255, 255, 0.1);
+    position: relative;
+    text-transform: uppercase;
+}
+
+.myCard .MainCard-title h2 span {
+    position: absolute;
+    top: 0;
+    left: 9%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 2rem;
+}
+
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background-color: #1e1e1e;
+    padding: 30px 20px;
+    border-radius: 10px;
+    text-align: left;
+
+}
+
+.card:hover {
+
+    border-bottom: 2px solid #009962;
+}
+
+.card-icon {
+    font-size: 2rem;
+    color: #4caf50;
+    margin-bottom: 10px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.card-description {
+    font-size: 0.9rem;
+    color: #696969;
+}
+
+.mystats {
+    padding: 50px 0;
+}
+
+.mystats-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1e1e1e;
+    padding: 20px 0;
+    border-bottom: 2px solid #009e66;
+}
+
+.stat {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.stat-value {
+    font-size: 4rem;
+    padding: 20px 10px 0 0;
+    font-weight: bold;
+    color: #009e66;
+}
+
+.stat-label {
+    color: #FFFFFF;
+
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+
+
+
+.portfolio-grid {
+    padding: 100px 0;
+
+}
+
+.portfolio-grid .portfolio-title {
+    text-align: left;
+    margin-bottom: 45px;
+
+}
+
+.portfolio-grid .portfolio-title h2 {
+    font-size: 4.7rem;
+    color: rgba(255, 255, 255, 0.1);
+    position: relative;
+    text-transform: uppercase;
+}
+
+.portfolio-grid .portfolio-title h2 span {
+    position: absolute;
+    top: 0;
+    left: 12%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 2rem;
+}
+
+.portfolio-grid .imgcon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.portfolio-grid .imgcon .menu-bar1 {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.portfolio-grid .project-card {
+    text-align: center;
+    background: #222;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.portfolio-grid .project-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.project-con {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding-bottom: 25px;
+}
+
+.project-con .project-card h3 {
+    color: #fff;
+}
+
+
+.portfolio-grid .all-projects-btn {
+    background-color: none;
+    color: #009e66;
+    border: 1px solid #009e66;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+
+
+.pricing {
+    padding: 100px 0;
+
+}
+
+.pricing .pricing-title {
+    text-align: left;
+    margin-bottom: 45px;
+
+}
+
+.pricing .pricing-title h2 {
+    font-size: 4.7rem;
+    color: rgba(255, 255, 255, 0.1);
+    position: relative;
+    text-transform: uppercase;
+}
+
+.pricing .pricing-title h2 span {
+    position: absolute;
+    top: 0;
+    left: 12%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 2rem;
+}
+
+.pricing .pricing-table {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.pricing .pricing-table .pricing-card {
+    background: #222;
+    border: 2px solid #333;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.pricing .pricing-table .pricing-card h3 {
+    color: #fff;
+    padding: 10px 0 0 5px;
+}
+
+.pricing .pricing-table .pricing-card p {
+    color: #fff;
+    padding-bottom: 10px;
+
+}
+
+.pricing .pricing-table .pricing-card ul li {
+    color: #8e8e8e;
+    padding: 12px 0px;
+
+}
+
+.pricing .pricing-table .pricing-card .btn {
+    background-color: #009e66;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+.testimonials {
+    padding: 100px 0;
+
+}
+
+.testimonials .testimonials-title {
+    text-align: left;
+    margin-bottom: 45px;
+
+}
+
+.testimonials .testimonials-title h2 {
+    font-size: 4.7rem;
+    color: rgba(255, 255, 255, 0.1);
+    position: relative;
+    text-transform: uppercase;
+}
+
+.testimonials .testimonials-title h2 span {
+    position: absolute;
+    top: 0;
+    left: 12%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 2rem;
+}
+
+.testimonials .testimonials-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.testimonials .testimonials-section .testimonial {
+    background: #222;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.testimonials .testimonials-section .testimonial .profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.testimonials .testimonials-section .testimonial .profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.testimonials .testimonials-section .testimonial .profile .info h5 {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.testimonials .testimonials-section .testimonial .profile .info p {
+    font-size: 0.9rem;
+    color: #aaa;
+    padding-top: 5px;
+}
+
+.testimonials .testimonials-section .quote {
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 300;
+
+    color: #ccc;
+
+}
+
+.testimonials .testimonials-section .quote-icon {
+    position: absolute;
+    font-size: 5rem;
+    color: #009e66;
+    top: 40px;
+    right: 40px;
+    opacity: 0.4;
+}
+
+
+
+.teams {
+    padding: 100px 0;
+
+}
+
+.teams .team-title {
+    text-align: left;
+    margin-bottom: 45px;
+
+}
+
+.teams .team-title h2 {
+    font-size: 4.7rem;
+    color: rgba(255, 255, 255, 0.1);
+    position: relative;
+    text-transform: uppercase;
+}
+
+.teams .team-title h2 span {
+    position: absolute;
+    top: 0;
+    left: 9%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 2rem;
+}
+
+.team-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.team-grid .team-card {
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.team-grid .team-card .profile-pic {
+    width: 100%;
+    height: auto;
+
+    margin-bottom: 15px;
+}
+
+.team-grid .team-card .team-name {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.team-grid .team-card .team-role {
+    font-size: 1em;
+    color: #a0a0a0;
+}
+
+.team-grid .team-card .social-icons {
+    padding-top: 10px;
+}
+
+.team-grid .team-card .social-icons a {
+    color: white;
+    margin: 0 5px;
+    font-size: 1.5em;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.Blog {
+    padding: 100px 0;
+    color: #fff;
+
+}
+
+.Blog .Blog-tittle {
+    text-align: left;
+    margin-bottom: 45px;
+
+}
+
+.Blog .Blog-tittle h2 {
+    font-size: 4.7rem;
+    color: rgba(255, 255, 255, 0.1);
+    position: relative;
+    text-transform: uppercase;
+}
+
+.Blog .Blog-tittle h2 span {
+    position: absolute;
+    top: 0;
+    left: 7%;
+    transform: translateX(-50%);
+    font-size: 2rem;
+    color: #fff;
+}
+
+.Blog .imgcon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Blog .imgcon .img-card {
+
+    margin: 10px;
+}
+
+.Blog .imgcon .img-card img {
+    width: 100%;
+
+}
+
+.Blog .imgcon .img-card .img-box {
+    position: relative;
+
+}
+
+.Blog .imgcon .img-card .img-box p {
+    position: absolute;
+    bottom: 3%;
+    left: 0%;
+    padding: 5px 10px;
+    background-color: #009e66;
+    color: #fff;
+}
+
+.Blog .imgcon .img-card h3 {
+    padding: 10px 0;
+}
+
+.Blog .imgcon .img-card p {
+    padding-bottom: 15px;
+}
+
+.Blog a {
+
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid #009962;
+}
+
+
+.Clients {
+    padding: 100px 0;
+    color: #fff;
+
+}
+
+.Clients .Clients-tittle {
+    text-align: left;
+    margin-bottom: 45px;
+
+}
+
+.Clients .Clients-tittle h2 {
+    font-size: 4.7rem;
+    color: rgba(255, 255, 255, 0.1);
+    position: relative;
+    text-transform: uppercase;
+}
+
+.Clients .Clients-tittle h2 span {
+    position: absolute;
+    top: 0;
+    left: 9%;
+    transform: translateX(-50%);
+    font-size: 2rem;
+    color: #fff;
+}
+
+.Clients .imgbox {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Clients {
+    padding: 100px 0;
+    color: #fff;
+
+}
+
+.Clients .Clients-tittle {
+    text-align: left;
+    margin-bottom: 45px;
+
+}
+
+.Clients .Clients-tittle h2 {
+    font-size: 4.7rem;
+    color: rgba(255, 255, 255, 0.1);
+    position: relative;
+    text-transform: uppercase;
+}
+
+.Clients .Clients-tittle h2 span {
+    position: absolute;
+    top: 0;
+    left: 9%;
+    transform: translateX(-50%);
+    font-size: 2rem;
+    color: #fff;
+}
+
+.contact-section {
+    padding: 100px 0;
+    color: #fff;
+
+}
+
+.contact-section .contact-tittle {
+    text-align: left;
+    margin-bottom: 45px;
+
+}
+
+.contact-section .contact-tittle  h2 {
+    font-size: 4.7rem;
+    color: rgba(255, 255, 255, 0.1);
+    position: relative;
+    text-transform: uppercase;
+}
+
+.contact-section .contact-tittle  h2 span {
+    position: absolute;
+    top: 0;
+    left: 9%;
+    transform: translateX(-50%);
+    font-size: 2rem;
+    color: #fff;
+}
+.Contact-con{
+    display: flex;
+    justify-content: space-around;
+}
+
+ .contact-form .form-group {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    margin: 5px 0px;
+    padding: 10px;
+    border: 1px solid #333;
+    border-bottom: 1px solid #fff;
+    background: #1c1c1c;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  .contact-form input::placeholder,
+  .contact-form textarea::placeholder {
+    color: #666;
+    
+  }
+  
+  .contact-form .btn {
+    background: #00c853;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .contact-right ul {
+    margin-top: 20px;
+  }
+  .contact-right ul li i {
+    font-size:40px;
+    color:#00c853;
+    padding:10px 50px 10px 0px;
+  }
+  .contact-right ul li  {
+    display: flex;
+   
+  }
+  .contact-right ul li  p {
+    text-align: left;
+  }
+  
+ 
